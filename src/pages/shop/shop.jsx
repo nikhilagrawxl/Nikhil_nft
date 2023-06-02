@@ -24,6 +24,7 @@ import React, { useState } from "react";
 import { PRODUCTS } from "../../products";
 import { Product } from "./product";
 import { useNavigate } from "react-router-dom";
+import "./shop.css";
 
 export const Shop = () => {
   const [products, setProducts] = useState(PRODUCTS);
